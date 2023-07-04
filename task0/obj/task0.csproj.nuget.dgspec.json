@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj": {}
+    "c:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj": {
+    "c:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj",
+        "projectUniqueName": "c:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj",
         "projectName": "task0",
-        "projectPath": "C:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj",
+        "projectPath": "c:\\Users\\iru\\Desktop\\C#\\task0\\task0.csproj",
         "packagesPath": "C:\\Users\\iru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iru\\Desktop\\C#\\task0\\obj\\",
+        "outputPath": "c:\\Users\\iru\\Desktop\\C#\\task0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iru\\AppData\\Roaming\\NuGet\\NuGet.Config"
