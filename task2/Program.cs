@@ -6,25 +6,25 @@ Console.WriteLine("Введите номер дня недели: ");
 int day = int.Parse(Console.ReadLine());
 switch (day)
 {
-    case1: 
+    case 1: 
         Console.WriteLine("День недели Понедельник");
         break;
-    case2: 
+    case 2: 
         Console.WriteLine("День недели Вторник");
         break;
-    case3: 
+    case 3: 
         Console.WriteLine("День недели Среда");
         break;
-    case4: 
+    case 4: 
         Console.WriteLine("День недели Четверг");
         break;
-    case5: 
+    case 5: 
         Console.WriteLine("День недели Пятница");
         break;
-    case6: 
+    case 6: 
         Console.WriteLine("День недели Суббота");
         break;
-    case7: 
+    case 7: 
         Console.WriteLine("День недели Воскресенье");
         break;
     default:
