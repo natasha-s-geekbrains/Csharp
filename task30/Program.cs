@@ -4,6 +4,7 @@
 // [1,0,1,1,0,1,0,0]
 
 // СЛИШКОМ ПРОДВИНУТЫЙ МЕТОД
+//*************************************************
 // void Main()
 // {
 //     int[] array = new int[8];
@@ -17,28 +18,33 @@
 // }
 
 // Main();
+//********************************************************
 
-﻿void FillArray(int[] collection)
+int Prompt(string message)
 {
-    int length = collection.Length;
-    int index = 0;
-    while (index < length)
+    Console.Write(message);
+    return int.Parse(Console.ReadLine()!);
+}
+
+int[] FillArray(int[] arrayA)
+{
+    for (int index = 0; index < arrayA.Length; index++)
     {
-        collection[index] = new Random().Next(1, 10);
-        index++;
+        arrayA[index] = new Random().Next(0, 2);
+    }
+    return arrayA;
+}
+
+void PrintArray(int[] arrayB)
+{
+    for(int idx = 0; idx < arrayB.Length; idx++)
+    {
+        Console.Write($"{arrayB[idx]} ");
     }
 }
 
+int arrayLength = Prompt("Введите длину массива: ");
+int[] array = new int[arrayLength];
 
-void PrintArray(int[] col)
-{
-    int count = col.Length;
-    int position = 0;
-    while (position < count)
-    {
-        Console.WriteLine(col[position]);
-        position++;
-    }
-}
-
+PrintArray(FillArray(array));
 
