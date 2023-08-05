@@ -5,7 +5,7 @@
 
 int m = GetNum("Введите целое неотрицательное число m: ");
 int n = GetNum("Введите целое неотрицательное число n: ");
-Console.Write(Akkerman(m, n));
+Console.Write($"Значение функции Аккермана => {Akkerman(m, n)}");
 
 int GetNum(string message)
 {

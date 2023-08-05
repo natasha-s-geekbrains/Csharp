@@ -4,14 +4,14 @@
 // M = 4; N = 8. -> 30
 
 int startNumber = GetNumber("Введите начальное натуральное число M: ");
-int finishNumber = GetNumber("Введите начальное натуральное число N > первого числа: "); // это условие видно в двух примерах к задаче
+int finishNumber = GetNumber("Введите конечное натуральное число N > первого числа: "); // это условие видно в двух примерах к задаче
 if (finishNumber <= startNumber)
 {
     Console.Write("Второе число должно быть больше первого. Повторите ввод.");
 }
 int Sum = 0;
 int resultSum = GetSum(startNumber, finishNumber);
-Console.Write(resultSum);
+Console.Write($"Cумма натуральных элементов в промежутке от {startNumber} до {finishNumber} => {resultSum}");
 
 int GetNumber(string message)
 {
